@@ -11,5 +11,8 @@
   "license": "ISC",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "link": "^2.1.0"
   }
 }
