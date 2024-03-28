@@ -1,3 +1,4 @@
+// @ts-check
 import readlineSync from 'readline-sync';
 
 export const roundsCount = 3;
