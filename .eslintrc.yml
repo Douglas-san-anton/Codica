@@ -1,9 +1,9 @@
 extends:
-  - airbnb-base
+  - 'airbnb-base'
+
+env:
+  node: true
 
 rules:
-  no-console: off
-  import/extensions:
-    - error
-    - ignorePackages
-    - js
+  no-console: 0
+  import/extensions: 0

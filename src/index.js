@@ -10,6 +10,7 @@ export default (description, rounds) => {
 
   console.log(description);
 
+  // eslint-disable-next-line no-restricted-syntax
   for (const [question, response] of rounds) {
     console.log(`Pregunta: ${question}`);
     const actual = readlineSync.question('Tu respuesta: ');
@@ -22,5 +23,4 @@ export default (description, rounds) => {
   }
 
   console.log(`¡Felicidades, ${name}!`);
-}
-
+};
