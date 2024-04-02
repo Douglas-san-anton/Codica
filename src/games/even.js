@@ -6,19 +6,19 @@ const description = 'Responde "yes" si el número es par, de lo contrario respon
 const isEven = (number) => number % 2 === 0;
 
 const generateRound = () => {
-    const number = generateNumber(1, 100);
+  const number = generateNumber(1, 100);
 
-    const question = String(number);
-    const answer = isEven(number) ? 'yes' : 'no';
+  const question = String(number);
+  const answer = isEven(number) ? 'yes' : 'no';
 
-    return [question, answer];
+  return [question, answer];
 };
 
 export default () => {
-    const rounds = [];
-    for (let i = 0; i < roundsCount; i += 1) {
-        rounds.push(generateRound());
-    }
+  const rounds = [];
+  for (let i = 0; i < roundsCount; i += 1) {
+    rounds.push(generateRound());
+  }
 
-    run(description, rounds);
+  run(description, rounds);
 };
