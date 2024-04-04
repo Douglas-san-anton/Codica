@@ -1,5 +1,5 @@
 {
-  "name": "@hexlet/code",
+  "name": "@codica/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Douglas-san-anton/Proyecto-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Douglas-san-anton/Proyecto-project-98/actions)",
   "main": "bin/brain-games.js",
